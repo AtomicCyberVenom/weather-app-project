@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-width: 400px;
+    position:relative;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
@@ -12,6 +12,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
     margin-top: 105px;
+}
+
+.info-container{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    max-width: 44%;
 }
 
 h1 {
@@ -26,6 +33,10 @@ input[type="text"] {
     border-radius: 5px;
 }
 
+.weather-info {
+    margin-top: 20px;
+}
+
 button {
     background-color: #007BFF;
     color: #fff;
@@ -35,6 +46,26 @@ button {
     cursor: pointer;
 }
 
-.weather-info {
-    margin-top: 20px;
+body {
+    font-family: Arial, sans-serif;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height to fill the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; 
+
+    button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+  }
+  
